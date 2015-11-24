@@ -1,0 +1,30 @@
+{
+  "name": "react-blurred-img",
+  "version": "1.0.0",
+  "description": "A React component to display a blurred image",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "budo test/test.js --live -d test -- -t babelify | garnish"
+  },
+  "keywords": ["react", "react-component", "blur", "image", "blurred"],
+  "author": "Will Binns-Smith <wbinnssmith@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.isequal": "^3.0.4",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "stackblur": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.0.0",
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.2.1",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.0",
+    "budo": "^6.0.4",
+    "garnish": "^4.1.1"
+  }
+}
